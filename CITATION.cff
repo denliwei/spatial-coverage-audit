@@ -3,6 +3,10 @@ message: "If you use this software, please cite it using the metadata below."
 type: software
 title: "spatial-coverage-audit"
 version: "0.1.0"
+doi: "10.5281/zenodo.22164329"
+date-released: "2026-08-30"
+repository-code: "https://github.com/denliwei/spatial-coverage-audit"
+url: "https://github.com/denliwei/spatial-coverage-audit"
 license: MIT
 authors:
   - family-names: "Deng"

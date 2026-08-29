@@ -5,6 +5,13 @@
   "access_right": "open",
   "license": "MIT",
   "version": "0.1.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/denliwei/spatial-coverage-audit",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
   "creators": [
     {
       "name": "Deng, Liwei",
@@ -25,5 +32,6 @@
     "environmental modelling",
     "prediction intervals",
     "spatial validation"
-  ]
+  ],
+  "notes": "Release DOI: 10.5281/zenodo.22164329"
 }

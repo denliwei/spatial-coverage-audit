@@ -184,5 +184,7 @@ environment, runtime definition, and output hashes are recorded in
 `benchmarks/BENCHMARK_REPORT.md`.
 
 The code is released under the MIT License. Contributor-approved identities
-are recorded in `AUTHORS.md` and `CITATION.cff`. The citation metadata omits a
-DOI until the archival release has actually been registered.
+are recorded in `AUTHORS.md` and `CITATION.cff`. The canonical public repository
+is https://github.com/denliwei/spatial-coverage-audit. Release 0.1.0 is archived
+with its redistribution-conscious evidence bundle at
+https://doi.org/10.5281/zenodo.22164329.
