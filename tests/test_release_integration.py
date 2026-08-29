@@ -43,9 +43,13 @@ class ReleaseAssetTests(unittest.TestCase):
         metadata_lines = [
             line for line in citation_lines if line.strip() and not line.lstrip().startswith("#")
         ]
-        self.assertFalse(any(line.lstrip().startswith("doi:") for line in metadata_lines))
-        self.assertFalse(any("<" in line or ">" in line for line in metadata_lines))
         citation_text = "\n".join(metadata_lines)
+        self.assertIn('doi: "10.5281/zenodo.22164329"', citation_text)
+        self.assertIn(
+            'repository-code: "https://github.com/denliwei/spatial-coverage-audit"',
+            citation_text,
+        )
+        self.assertFalse(any("<" in line or ">" in line for line in metadata_lines))
         self.assertIn('family-names: "Deng"', citation_text)
         self.assertIn('family-names: "Wang"', citation_text)
         self.assertIn('family-names: "Kuang"', citation_text)
