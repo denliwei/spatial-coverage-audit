@@ -1,0 +1,12 @@
+# Copy this file to CITATION.cff only after replacing the author placeholders.
+# Add a doi field only after a DOI has actually been registered.
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "spatial-coverage-audit"
+version: "0.1.0"
+license: MIT
+authors:
+  - family-names: "<REPLACE_WITH_FAMILY_NAME>"
+    given-names: "<REPLACE_WITH_GIVEN_NAMES>"
+    orcid: "<REPLACE_WITH_VERIFIED_ORCID_OR_REMOVE_THIS_LINE>"

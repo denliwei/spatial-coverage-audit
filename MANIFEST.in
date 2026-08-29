@@ -1,0 +1,12 @@
+include AUTHORS.md
+include CITATION.cff
+include .zenodo.json
+include LICENSE
+include README.md
+include environment.yml
+include requirements.txt
+include release_verification.json
+recursive-include benchmarks *.md *.py
+recursive-include examples *.csv *.md
+recursive-include scripts *.py
+recursive-include tests *.py

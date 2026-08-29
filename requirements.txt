@@ -1,0 +1,8 @@
+# Fully pinned reference environment used for the release checks and benchmark.
+# NumPy and pandas are direct dependencies; the remaining packages are the
+# complete pandas transitive dependency set in this environment.
+numpy==2.5.1
+pandas==3.0.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.2

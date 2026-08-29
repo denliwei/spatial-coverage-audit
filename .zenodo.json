@@ -1,0 +1,29 @@
+{
+  "title": "spatial-coverage-audit",
+  "description": "A reproducible audit package for evaluating environmental prediction-interval claims across deployment groups, split designs, finite-output behavior, and target-information budgets.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "0.1.0",
+  "creators": [
+    {
+      "name": "Deng, Liwei",
+      "affiliation": "College of Computer and Mathematics, Central South University of Forestry and Technology"
+    },
+    {
+      "name": "Wang, Lu",
+      "affiliation": "Modern Service College, Hunan Mechanical & Electrical Polytechnic"
+    },
+    {
+      "name": "Kuang, Zhufang",
+      "affiliation": "College of Computer and Mathematics, Central South University of Forestry and Technology"
+    }
+  ],
+  "keywords": [
+    "conformal prediction",
+    "deployment audit",
+    "environmental modelling",
+    "prediction intervals",
+    "spatial validation"
+  ]
+}

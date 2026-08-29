@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "spatial-coverage-audit"
+version: "0.1.0"
+license: MIT
+authors:
+  - family-names: "Deng"
+    given-names: "Liwei"
+    affiliation: "College of Computer and Mathematics, Central South University of Forestry and Technology"
+  - family-names: "Wang"
+    given-names: "Lu"
+    affiliation: "Modern Service College, Hunan Mechanical & Electrical Polytechnic"
+  - family-names: "Kuang"
+    given-names: "Zhufang"
+    affiliation: "College of Computer and Mathematics, Central South University of Forestry and Technology"
+keywords:
+  - conformal prediction
+  - deployment audit
+  - environmental modelling
+  - prediction intervals
+  - spatial validation

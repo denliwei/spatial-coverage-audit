@@ -1,0 +1,12 @@
+name: spatial-coverage-audit-0.1.0
+channels:
+  - conda-forge
+dependencies:
+  - python=3.14.4
+  - pip=26.1.1
+  - pip:
+      - numpy==2.5.1
+      - pandas==3.0.3
+      - python-dateutil==2.9.0.post0
+      - six==1.17.0
+      - tzdata==2026.2

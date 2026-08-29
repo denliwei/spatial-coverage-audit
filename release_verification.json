@@ -1,0 +1,54 @@
+{
+  "benchmark_reference": {
+    "measurement_date": "2026-07-16",
+    "provenance": "Frozen measured timing report; release verification does not replace or silently remeasure its machine-dependent timings. The report's normalized JSON hashes predate additive audit_schema=2 fields; the frozen CSV bundle identity remains current and verified.",
+    "reference_command": "python benchmarks/benchmark_cli.py --runs 5 --warmup 1 --synthetic-rows 100000",
+    "reference_results": {
+      "golden": {
+        "identical_outputs": "Yes, 5/5",
+        "max_ms": 606.146,
+        "median_ms": 584.787,
+        "min_ms": 552.921,
+        "rows": 16,
+        "run_times_ms": [
+          584.787,
+          587.794,
+          606.146,
+          572.437,
+          552.921
+        ]
+      },
+      "synthetic": {
+        "identical_outputs": "Yes, 5/5",
+        "max_ms": 855.27,
+        "median_ms": 822.143,
+        "min_ms": 806.996,
+        "rows": 100000,
+        "run_times_ms": [
+          827.798,
+          822.143,
+          806.996,
+          855.27,
+          818.866
+        ]
+      }
+    },
+    "report": "benchmarks/BENCHMARK_REPORT.md",
+    "report_sha256": "bc783d03c97794d4729687a55b982f2b06a7f7c626f04bfdeacca92600d42917"
+  },
+  "golden_integration": {
+    "command": "python scripts/run_golden_integration.py",
+    "csv_artifacts": 5,
+    "csv_bundle_sha256": "f631d27da21308209519e557adfbf090e5353ebbf7b998b440465224ef421942",
+    "rows": 16,
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "test_suite": {
+    "command": "python -W error -m unittest discover -s tests -v",
+    "elapsed_seconds": 3.942,
+    "status": "passed",
+    "tests": 45,
+    "warnings_as_errors": true
+  }
+}
