@@ -188,3 +188,32 @@ are recorded in `AUTHORS.md` and `CITATION.cff`. The canonical public repository
 is https://github.com/denliwei/spatial-coverage-audit. Release 0.1.0 is archived
 with its redistribution-conscious evidence bundle at
 https://doi.org/10.5281/zenodo.22164329.
+
+## Forest interval study archive
+
+The complete forest-interval reproducibility archive is **version 0.2.0**:
+[10.5281/zenodo.22844730](https://doi.org/10.5281/zenodo.22844730).
+Use this exact version DOI when reproducing or citing the manuscript's archived
+analyses. The installable audit software core remains **version 0.1.0**;
+the archive version is not a new package-code release.
+
+The archive retains the earlier frozen benchmark and presentation files and
+adds two distinct companions:
+
+- `Forest_Interval_Reproducibility_0.2.0.zip`: fixed derived NEON inputs,
+  605 stored forests, task and prediction ledgers, permutation records,
+  protocols, runners, independent validators, CAST comparisons, environment
+  specifications and portable reproduction commands.
+- `Analysis_Addendum_integrated_v1_1.zip`: derived comparison tables and figure
+  inputs/scripts. This light addendum alone does not reproduce model fitting.
+
+Start with the full package's `README.md` and verify its
+`MANIFEST_SHA256.csv` before loading serialized models. The historical
+benchmark archive and the nested diagnostic extension use distinct designs;
+their baselines are not interchangeable. Local packaging checks are not a
+claim that every stored model was retrained during release preparation.
+
+Licensing is component-specific. Project code retains MIT terms, bundled CAST
+retains GPL (>= 2), and provider-derived data retain their applicable terms
+and attribution. See `LICENSES_AND_ATTRIBUTION.md` in the full package;
+the repository's MIT license does not relicense all archive components.
